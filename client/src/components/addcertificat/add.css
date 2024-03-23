@@ -1,0 +1,74 @@
+.file-btn {
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 20%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    top: auto;
+    color: #e6e6e6;
+    background-color: #22BAA0;
+    border: 1.5px dashed #22BAA0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .file-btn:hover {
+    color: #22BAA0;
+    background-color: #22BAA0;
+  }
+  
+  .file-btn span {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    color: #22BAA0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #22BAA0;
+  }
+  
+  .selected-file {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 10%;
+    justify-content: space-between;
+    background-color: #a4e0d6;
+    border: 1px solid #b4ece2;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  .selected-file p {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 15px;
+  }
+  
+  .selected-file button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #22BAA0;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .selected-file button:hover {
+      color: #fff;
+      background-color: #22BAA0;
+  }
