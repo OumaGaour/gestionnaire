@@ -9,6 +9,7 @@ const authRoutes = require("./routes/auth");
 const route = require("./routes/userRoute")
 const passwordResetRoutes = require("./routes/passwordReset");
 const uploadRoute = require("./routes/uploadRoute");
+const certificatRoute = require("./routes/certificateRoute");
 
 
 // database connection
@@ -25,6 +26,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/password-reset", passwordResetRoutes);
 app.use("/api", route);
 app.use("/api", uploadRoute);
+app.use("/api/generate", certificatRoute);
 
 const port = process.env.PORT || 8080;
 app.listen(port, console.log(`Listening on port ${port}...`));
